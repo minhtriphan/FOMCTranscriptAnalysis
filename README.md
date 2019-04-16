@@ -24,6 +24,10 @@ To run data_manipulations.py (the notebook with the process of how I conducted t
 
 **Warning** : _Read the final paper for a deeper understanding of the mathematics behind the methods and model used._ There are 3 lines of code for the regression, but there is an entire section of the paper devoted to explaining why those lines of code actually work.
 
+Three notebooks "FOMC minutes scraper", "FOMC press conference scraper" and "FOMC statement scraper" allow to download FOMC minutes, press conference and statement (or record of policy action) from 1989 to 2019. These downloaded files could be of .txt, .pdf, or even .html. For .pdf files, we may convert them into text using the above-mentioned webpage. For .html files, we may easily convert them into .txt files by some Python modules.
+
+These notebooks are designed based on the assumption that these documents are not available in your PC or laptop.
+
 ## Introduction of Final Paper
 
 Textual analysis applied to economic research has undergone a renaissance of sorts in recent years. With significant advancements in machine learning and computing power, formerly qualitative data embedded in texts has now become available for economists to quantify, classify, and incorporate into their models. These developments have created an opportunity to answer questions from level of individual actors and their reactions, rather than summary statistics describing their interactions with markets. Through applying new machine learning methods, researchers can gain a more granular understanding of how individual reactions affect different economic outcomes.
