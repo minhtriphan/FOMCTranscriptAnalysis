@@ -24,7 +24,9 @@ To run data_manipulations.py (the notebook with the process of how I conducted t
 
 **Warning** : _Read the final paper for a deeper understanding of the mathematics behind the methods and model used._ There are 3 lines of code for the regression, but there is an entire section of the paper devoted to explaining why those lines of code actually work.
 
-Three notebooks "FOMC minutes scraper", "FOMC press conference scraper" and "FOMC statement scraper" allow to download FOMC minutes, press conference and statement (or record of policy action) from 1989 to 2019. These downloaded files could be of .txt, .pdf, or even .html. For .pdf files, we may convert them into text using the above-mentioned webpage. For .html files, we may easily convert them into .txt files by some Python modules.
+Three notebooks "FOMC minutes scraper", "FOMC press conference scraper" and "FOMC statement scraper" allow to download FOMC minutes, press conference transcripts and statements (or record of policy action) from 1989 to 2019. The minutes are released a while after the meetings, while transcripts and statements are available right after every meeting. For further understanding, please check the following descriptive document, https://www.federalreserve.gov/pubs/bulletin/2005/spring05_fomc.pdf.
+
+These downloaded files could be of .txt, .pdf, or even .html. For .pdf files, we may convert them into text using the above-mentioned webpage. For .html files, we may easily convert them into .txt files by some Python modules.
 
 These notebooks are designed based on the assumption that these documents are not available in your PC or laptop.
 
